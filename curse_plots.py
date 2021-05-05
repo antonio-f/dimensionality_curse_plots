@@ -5,14 +5,12 @@ import numpy as np
 # 1D
 x = np.random.rand(40,1)
 y = np.ones(len(x))
-plt.figure
 plt.scatter(x , y)
 plt.xlabel('1D points')
 plt.show()
 
 # 2D
 points = np.random.rand(40,2)
-plt.figure
 plt.scatter(points[:,0], points[:,1])
 plt.xlabel('2D points')
 plt.show()
